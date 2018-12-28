@@ -47,7 +47,6 @@ env:
     - BUILD_LIBS="CPP C_GLIB HASKELL JAVA PYTHON TESTING TUTORIALS"  # only meaningful for CMake builds
     - TRAVIS_BUILD_STAGE=test
     # DOCKER_REPO (this works for all builds as a source for docker images - you can override for fork builds in your Travis settings)
-    - DOCKER_REPO="k5mwe/thrift"
     # DOCKER_USER (provide in your Travis settings if you want to build and update docker images once, instead of on every job)
     # DOCKER_PASS (same)
 
